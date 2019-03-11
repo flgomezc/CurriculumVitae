@@ -28,6 +28,8 @@
 % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, 
 % executivepaper or landscape; font families: sans or roman
 
+\usepackage[utf8]{inputenc}
+
 \moderncvstyle{casual} 
 % CV theme - options include: 'casual' (default), 'classic', 
 % 'oldstyle' and 'banking'
@@ -46,7 +48,7 @@
 \newcommand{\forceindent}{\leavevmode{\parindent=1em\indent}} 
 % Filis Var: To indent a single paragraph
 
-%\usepackage[]{hyperref}
+
 %----------------------------------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION SECTION
 %----------------------------------------------------------------------------------------
@@ -72,34 +74,10 @@
 \begin{document}
 
 %----------------------------------------------------------------------------------------
-%	COVER LETTER
-%----------------------------------------------------------------------------------------
-%
-% To remove the cover letter, comment out this entire block
-%
-%\clearpage
-%
-%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} 
-            % Letter recipient
-%\date{\today} % Letter date
-%\opening{Dear Sir or Madam,} % Opening greeting
-%\closing{Sincerely yours,} % Closing phrase
-%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
-%
-%\makelettertitle % Print letter title
-
-%\lipsum[1-3] % Dummy text
-
-%\makeletterclosing % Print letter signature
-
-%\newpage
-
-%----------------------------------------------------------------------------------------
 %	CURRICULUM VITAE
 %----------------------------------------------------------------------------------------
 
 \makecvtitle % Print the CV title
-
 
 %----------------------------------------------------------------------------------------
 %	PROFILE SECTION
@@ -111,15 +89,19 @@ I am Physicist. My research area is Computational Astrophysics. I have developed
 strong skills in order to solve physical problems; Mathematical Modeling, Data Analysis, 
 Python and C++ programming under UNIX-like operating systems. 
 \par
-\forceindent I am co-founder of a technology company. As entrepreneur I have learned the
+\forceindent I have taught at university level as as Graduate Student 
+Assistant and Adjunct Instructor.
+
+As graduate assistant I have taught at Universidad de Los Andes; a basic Python course for
+science and engineering, the complementary session of the Computational Methods course (for
+physics and geo-sciences students), the complementary session of Physics II (electricity,
+magnetism and thermodynamics) and laboratory sessions for Physics I (mechanics) and Physics II. 
+
+\forceindent As entrepreneur I have learned the
 Lean Startup methodology, also I have got software developing skills as in back-end as 
-well in front-end. I have worked in a couple projects involving Java (Android), MySQL, 
-PHP, NodeJS and JavaScript (Facebook Messenger Chatbots).
+well in front-end. I have worked in a couple projects involving Apache, Java (Android),
+MySQL, PHP, NodeJS and JavaScript (Facebook Messenger Chatbots).
 \par
-\forceindent I have teaching at university level as Professor Auxiliar and Graduate Student 
-Assistant, I have taught Computational Methods for physicists, first and second year 
-(theoretical and experimental) physics courses for natural sciences, health sciences and 
-engineering.
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
@@ -127,76 +109,107 @@ engineering.
 
 \section{Work Experience}
 
-\cventry{2017}{Co-founder and Chief of Technology Officer}{\textsc{Montanoa Tech S.A.}}
-{Bogot\'a, Colombia}{}
-{
-As CTO, I have been Back-end and Front-end Head Developer. I have learned Java for Android
-mobile apps, some basics of Apache2 running on Ubuntu Server 14.10. 
-We have participated in the Apps.CO/MINTIC official contest 
-``Convocatoria a Equipos de Emprendedores para la Fase de Descubrimiento de
-Negocios TIC de la Iniciativa APPS.CO'' with the project ``Pedro App''.
-The purpose of this contest is to give teaching and accompaniment for new entrepreneur 
-teams.
-We have learned the Lean Startup methodology. Our MVP is a delivery system joint with a 
-Facebook Chatbot to order freshly baked goods on demand. \\
-Ministerio de Tecnolog\'ias de la informaci\'on y las Comunicaciones (MINTIC).
-}
+\cventry{2019 Jan. - Up to date}
+        {Python for Science professor}
+        {\textsc{Universidad de Los Andes}}
+        {Bogotá, Colombia}{}
+        {The course ``Herramientas Computacionales'' (Computing Tools) is an introductory course
+          to python programming in Science. The students learn the basics of UNIX like operative
+          systems, Python 3.7 and its interactive version IPython via Jupyter Notebooks, how to
+          use Matplotlib, basic statistics, optimization and MoteCarlo Methods. This course was
+          created for physics undergrad students, but also natural science and engineering
+          undergrad students are attending.}
 
-\cventry{2016-II}{Professor Auxiliar}{\textsc{Universidad Manuela Beltr\'an}}
-{Bogot\'a, Colombia}{}
-{Full time auxiliar professor. I was teaching for health sciences and engineering 
-students experimental physics courses for first and second year.}
+\cventry{2018 Jan. - 2018 Oct.}
+        {Contractor - Leader of Science and Technology}
+        {\textsc{Planetario de Bogotá}}
+        {Bogotá, Colombia}{}
+        {The main objectives of this contract were; to create activities for science divulgation,
+          to give conceptual support to the ongoing activities and lead two groops of The Planetarium
+          Astronomy Club (8-12 and 13-17 years-old children).}
 
+\cventry{2017 Oct. - 2017 Dec.}
+        {Contractor - Developer}
+        {\textsc{Guarumo}}{Bogotá, Colombia}{}
+        {I worked at Guarumo developing chatbots based on the Facebook Plataform. Thoose chatbots
+          where able to appoint dates, sell products and make querys depending on the customer necessities.
+          The Facebook Chatbots are developed on Node-JS, the back-end is based on Apache or Nginx}
+
+\cventry{2017 May. - 2017 Aug.}
+        {Back-End and Front-End Main Developer}{\textsc{PedroApp Startup}}
+        {Bogot\'a, Colombia}{}
+        {I have learned Java for Android mobile apps, some basics of Apache2 running on
+          Ubuntu Server 14.10 and JavaScript. We have participated in the Apps.CO/MINTIC official contest 
+          ``Convocatoria a Equipos de Emprendedores para la Fase de Descubrimiento de
+          Negocios TIC de la Iniciativa APPS.CO'' with the project ``Pedro App''.
+          The purpose of this contest was to give teaching and accompaniment for new entrepreneur 
+          teams.\\
+          Ministerio de Tecnolog\'ias de la informaci\'on y las Comunicaciones (MINTIC).
+          \href{https://apps.co/comunidad/ver/1785/pedro-e-commerce-multiplataforma-web-app-whatsapp-}
+               {\textcolor{blue}{Página del proyecto en Apps.CO.}}
+        }
+\cventry{2016-II}
+        {Adjunct Instructor}
+        {\textsc{Universidad Manuela Beltr\'an}}
+        {Bogot\'a, Colombia}{}
+        {Full time auxiliar instructor. I taught experimental physics courses for first and
+          second year students of health sciences and engineering.}
+        
 \cventry{2015-II}{Graduate Teaching Assistant}{\textsc{Universidad de Los Andes}}
-{Bogot\'a, Colombia}{}
-{Assistant Lecturer of \textbf{Herramientas Computacionales (Computation Tools)} for 
-Physics and  Science. This course requires object-oriented programming knowledge. 
-\\Dedication: 8 hours per week.
-\newline
-\href{https://github.com/ComputoCienciasUniandes/HerramientasComputacionales/tree/master/Lectures/98.Python}
-{\textcolor{blue}{Website, videos, resources and exercises.}}
-\newline{}
-Syllabus:
-\begin{itemize}
-\item UNIX systems basics.
-\item Introducing the Python programming language.
-\item Algorithms
-\item Numerical Methods (derivation, integration, differential equations)
-\item Solving Physical Systems
-\end{itemize}}
+        {Bogot\'a, Colombia}{}
+        {Assistant Lecturer of \textbf{Herramientas Computacionales (Computation Tools)} for 
+          Physics and  Science. This course requires object-oriented programming knowledge.
+          I worked with Juan David Orjuela (Physics Ph.D. student at Uniandes) making some youtube tutorial
+          videos in order to improve the time on classroom.
+          \\Dedication: 8 hours per week.
+          \newline
+          \href{https://github.com/ComputoCienciasUniandes/HerramientasComputacionales/tree/master/Lectures/98.Python}
+               {\textcolor{blue}{Website, videos, resources and exercises.}}
+               \newline{}
+               Syllabus:
+               \begin{itemize}
+               \item UNIX systems basics.
+               \item Introducing the Python programming language.
+               \item Algorithms
+               \item Numerical Methods (derivation, integration, differential equations)
+               \item Solving Physical Systems
+        \end{itemize}}
 
-\cventry{2015-II}{Graduate Teaching Assistant}
-{\textsc{Universidad de Los Andes}}{Bogot\'a, Colombia}{}
-{Graduate Teaching Assistant of \textbf{M\'etodos Computacionales (Computation Methods)} 
-for Physics and Science using Python and C. In this course Advanced numerical methods 
-are taugth, like Runge-Kutta in coupled differential equations, finite differences and
- Monte Carlo applications.\\
-Dedication: 4 hours per week.}
+\cventry{2015-II}
+        {Graduate Teaching Assistant}
+        {\textsc{Universidad de Los Andes}}{Bogot\'a, Colombia}{}
+        {Graduate Teaching Assistant of \textbf{M\'etodos Computacionales (Computation Methods)} 
+          for Physics and Science using Python and C. In this course Advanced numerical methods 
+          are taugth, like Runge-Kutta in coupled differential equations, finite differences and
+          Monte Carlo applications.\\
+          Dedication: 4 hours per week.}
+        
+%------------------------------------------------
+
+\cventry{2013-II 2014-II}
+        {Graduate Teaching Assistant}
+        {\textsc{Universidad de Los Andes}}
+        {Bogot\'a, Colombia}{}
+        {Graduate Teaching Assistant of \textbf{Experimental Physics I \& II} and 
+          \textbf{Physics II (Complementary Section)} for Science and Engineering.}
 
 %------------------------------------------------
 
-\cventry{2013-II 2014-II}{Graduate Teaching Assistant}
-{\textsc{Universidad de Los Andes}}
-{Bogot\'a, Colombia}{}
-{Graduate Teaching Assistant of \textbf{Experimental Physics I \& II} and 
-\textbf{Physics II (Complementary Section)} for Science and Engineering.}
+\cventry{2013-I}
+        {Teacher}
+        {\textsc{Batakl\'an Corporaci\'on de Artes}}
+        {Bogot\'a, Colombia}{}
+        {Teacher of \textbf{Art and Science} for elementary and high school.}
 
-%------------------------------------------------
-
-\cventry{2013-I}{Academic Teacher}
-{\textsc{Batakl\'an Corporaci\'on de Artes}}
-{Bogot\'a, Colombia}{}
-{Teacher of \textbf{Art and Science} for elementary and high school.}
-
-\cventry{2013-I}{Academic Teacher}
-{\textsc{Fundaci\'on San Jos\'e}}
-{Bogot\'a, Colombia}{}
-{Teacher of \textbf{Mathematics and Statistics} for Business Management and Engineering.}
+\cventry{2013-I}{Teacher}
+        {\textsc{Fundaci\'on San Jos\'e}}
+        {Bogot\'a, Colombia}{}
+        {Lecturer of \textbf{Mathematics and Statistics} for Business Management and Engineering.}
 
 %------------------------------------------------
 
 \cventry{2009--2010}
-{Astronomy Auxiliar Student}
+{Astronomy Auxiliar Undergrad-Student}
 {\textsc{Universidad Nacional de Colombia}}
 {Bogot\'a, Colombia.}{}
 {Course ``Astronom\'ia Para Todos'' (Astronomy for Everybody) at Observatorio 
@@ -212,9 +225,19 @@ Please check some projects in my repo at \url{https://github.com/flgomezc}
 \medskip
 
 \begin{itemize}
-\item Java (Android) \url{https://github.com/flgomezc/movies-app}
-\item Facebook Bot (Node-JavaScript) \url{https://github.com/flgomezc/pedrobot}
-\item Python, Ipython Notebook, \LaTeX \url{https://github.com/flgomezc/sfr-dmhm}
+\item Python, Ipython Notebook, \LaTeX. This is the repo of my current research for
+  the M.Sc. Thesis: \href{https://github.com/flgomezc/master_thesis}{flgomezc/master\_thesis},
+  a new algorithm using the $\beta$-skeleton graph applied to cosmology in the study of V
+  oids in the Large Scale Structure.
+
+\item Facebook Bot (Node-JavaScript) \href{https://github.com/flgomezc/pedrobot}
+  {flgomezc/pedrobot}. This is part of an startup that used the Facebook Messenger
+  plataform to make online sales.
+  
+\item Java (Android) \href{https://github.com/flgomezc/movies-app}{flgomezc/movies-app}
+  is a small app that connects to the open movie database \href{https://www.themoviedb.org/}
+  {themoviedb.org/} to retrieve info from the latests movies.
+
 \end{itemize}
 
 \medskip
@@ -232,6 +255,18 @@ Facebook API for Messenger Chatbots}
 
 \section{Education}
 
+
+\cventry{(2013-2014) (2018-Up to Date)}
+{M.Sc. Physics (Ongoing)}
+{Universidad de Los Andes}
+{Bogot\'a, Colombia}{}{I started here my formation in Computational Astrophysics. After
+  one year I decided to move to the PhD. program, postponing the Master's degree.
+  In 2018 I returned tor the M.Sc. program. I am working currently on Large Scale
+  Structure of the Universe, developing an algortythm to identify Cosmic Voids in
+  dark matter halo catalogs from simulations
+  (\href{https://lgarrison.github.io/AbacusCosmos/}{Abacus}) and low redshift
+  surveys (\href{https://classic.sdss.org/dr7/}{SDSS})}
+
 \cventry{2014--2015}
 {PhD. Physics (Retired)}
 {Universidad de Los Andes}
@@ -245,12 +280,6 @@ Also I have assisted to the workshop nIFTy Cosmology: Numerical Simulations for 
 Surveys hosted by Universidad Aut\'onoma de Madrid, (Madrid, Espa\~na, 2014-summer). 
 I was retired from the PhD. program due to health issues.}
 
-\cventry{2013--2014}
-{M.Sc. Physics (Postponed)}
-{Universidad de Los Andes}
-{Bogot\'a, Colombia}{}{I started here my formation in Computational Astrophysics. After
-one year I decided to move to the PhD. program, postponing the Master's degree.}  
-
 \cventry{2013}{B.Sc. Physics}{Universidad Nacional de Colombia}{Bogot\'a, Colombia}{}{
 As undergrad student I have explored computational and experimental physics areas. My
 degree thesis was on experimental physics, measuring ion beam currents in a low energy
@@ -260,13 +289,19 @@ particle accelerator.
 \bigskip
 
 \subsection{Masters Thesis (In Progress)}
-\cvitem{Title}{\emph{A Connection Between Star Formation Rate and Dark Matter Halos at 
-z$\sim$6}.}
+\cvitem{Title}{\emph{A Large Scale Structure Void Identifier for Galaxy Surveys
+  Based on the $\beta$-Skeleton Graph Method}.
+}
 \cvitem{Adviser}{Professor Jaime Forero-Romero}
-\cvitem{Description}{This work relates ordinary matter and dark matter in the early 
-Universe using telescope observations and halo catalogs from simulations using
-a Markov-Chain MoteCarlo method.}
-\cvitem{Keywords}{Large Scale Structure, Galaxy Evolution, Computational Astrophysics.}
+\cvitem{Description}{
+  We have developed a new algorithm based on the $\beta$-Skeleton graph to find voids in
+  the LSS. The Beta-Skeleton has been widely used on machine learning, optimization
+  algorithms and image recognition and processing. It has been introduced recently in
+  the LSS analysis as a fast tool to identify LSS filamentary structure, and now can
+  detect voids also. After identify the voids in the catalgos, we will make some
+  predictions for the upcoming DESI void population, using the voids morphology
+  statistics as cosmological test.}
+\cvitem{Keywords}{Large Scale Structure, Computational Astrophysics.}
 
 \medskip
 
