@@ -1,0 +1,460 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.2 (25/3/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt,letterpaper,sans]{moderncv} 
+% Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, 
+% executivepaper or landscape; font families: sans or roman
+
+\usepackage[utf8]{inputenc}
+
+\moderncvstyle{casual} 
+% CV theme - options include: 'casual' (default), 'classic', 
+% 'oldstyle' and 'banking'
+\moderncvcolor{blue} 
+% CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 
+% 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust 
+% the width of the space allocated to your name
+
+\setlength\parindent{0pt}
+\newcommand{\forceindent}{\leavevmode{\parindent=1em\indent}} 
+% Filis Var: To indent a single paragraph
+
+%\usepackage[]{hyperref}
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Felipe Leonardo}
+\familyname{Gómez Cortés}
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Calle 23c 70-50 Int 19 Apt 404}{Bogotá, Colombia.}
+\mobile{(+57) 316 845 5161}
+\phone{(+571) 759 5221}
+%\fax{(000) 111 1113}
+\email{fl.gomez10@uniandes.edu.co}
+\homepage{github.com/flgomezc}{https://github.com/flgomezc} 
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, 
+% the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+%
+% To remove the cover letter, comment out this entire block
+%
+%\clearpage
+%
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} 
+            % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+%
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%\newpage
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+
+%----------------------------------------------------------------------------------------
+%	PROFILE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Perfil}
+
+Soy físico, estudio actualmente Maestría en Ciencias-Física en la Universidad de Los Andes.
+Mi área de investigación es Astrofísica Computacional. He desarrollado fuertes
+habilidades para resolver problemas físicos mediante el modelamiento y
+análisis de datos usando herramientas computacionales programando en Python en sistemas
+operativos tipo UNIX.
+\par
+\forceindent He trabajado como docente a nivel universitario, como Asistente Graduado
+y como Profesor Asistente. También he trabajado en divulgación científica como contratista
+en el Planetario de Bogotá.
+
+\forceindent
+Como asistente graduado dicté en la Universidad de Los Andes en 2015 dos cursos de
+programación orientados para estudiantes de ciencias e ingeniería: dos secciones del curso
+``Herramientas Computacionales'' y profesor asistente en la sección complementaria
+del curso ``Métodos Computacionales''. En años anteriores dicté clases de física experimental
+I y II, y secciones complementarias de Física II (electricidad, magnetismo y termodinámica).
+
+\forceindent
+He trabajado también como desarrollador de software, tanto en back-end como en front-end.
+Participé en proyectos donde aprendí Apache, programación de aplicaciones en Java para
+Android, bases de datos en MySQL, PHP y NodeJS para desarrollar chatbots conectados a la
+plataforma de Messenger.
+\par
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experiencia Laboral}
+
+\cventry{2018 Ene. - 2018 Oct.}
+        {Contratista - Lider del área de Ciencia y Tecnología}
+        {\textsc{Planetario de Bogotá}}
+        {Bogotá, Colombia}{}
+        { Uno de los objetivos principales de este contrato era apoyar al IDARTES en el
+          desarrollo de actividades de divulgación científica para el público, fortalecer
+          procesos de mediación brindando apoyo conceptual, y dirigir dos grupos (de 8 a
+          12 aÑOS y de 13 a 17 años) del Club Juvenil de Tecnología y Astronomía del
+          Planetario de Bogotá. Entre estas experiencias desarrollé un curso de
+          programación en Python relámpago de 16 horas para jóvenes de 13 a 17 años,
+          que incluía visualización de datos astronómicos con librerías de Matplotlib.
+          \url{https://github.com/flgomezc/planetario_bogota}
+          \\
+          Supervisor: Edgar Cipagauta, profesional especializado. Tel: 3795750 ext. 2504.
+        }
+
+
+\cventry{2017 Oct. \\ 2017 Dic.}
+        {Contratista - Desarrollador de Software}
+        {\textsc{Guarumo}}{Bogotá, Colombia}{}
+        { Trabajé en Guarumo desarrollando principalmente chatbots para la plataforma Facebook. Entre las
+          distintas funciones, los chatbots podían realizar búsquedas en bases de datos,
+          agendar y modificar citas. Parte del trabajo se realizó en servidores Apache incluyento
+          PHP y bases de datos MySQL. Los bots se desarrollaron en JavaScript, con
+          intregración a servicios de inteligencia artificial como Watson de IBM. \\
+          Otro proyecto en el cuál trabajé
+          involucraba la visualización de gran volúmen de datos de transporte individual de pasajeros,
+          utilizando librerías de Python.\\
+          Brindé también mis servicios de investigación académica para estudiar el impacto de las encuestas
+          por medios electrónicos.\\
+          Jefe inmediato: Julián Villarreal, gerente de producto. Tel: 4813669, 318 7827666. E-mail:
+          \url{producto@guarumo.com}}
+
+          
+\cventry{2017 May.\\2017 Ago.}
+        {Desarrollador de producto}{\textsc{PedroApp Startup}}
+        {Bogot\'a, Colombia}{}
+        {Participé en la ``Convocatoria a Equipos de Emprendedores para la Fase de Descubrimiento de
+          Negocios TIC de la Iniciativa APPS.CO'' con el proyecto ``Pedro App'' donde adquirí conocimientos
+          sobre la metodología Lean Start Up y apliqué mis conocimientos en programación para el desarrollo
+          del proyecto.\\
+          Ministerio de Tecnolog\'ias de la informaci\'on y las Comunicaciones (MINTIC).
+          \href{https://apps.co/comunidad/ver/1785/pedro-e-commerce-multiplataforma-web-app-whatsapp-}
+               {\textcolor{blue}{Página del proyecto en Apps.CO.}}
+               \\
+               Mentor:  Julián Villarreal. Tel: 4813669, 318 7827666. E-mail:
+                         \url{producto@guarumo.com}
+        }
+
+\cventry{2016-II}
+        {Auxiliar de Docencia}
+        {\textsc{Universidad Manuela Beltr\'an}}
+        {Bogot\'a, Colombia}{}
+        { Trabajé tiempo completo dictando 13 cursos de física experimental para estudiantes de
+          primer y segundo año de ciencias de la salud e ingeniería.}
+        
+\cventry{2015-II}
+        {Asistente Graduado}{\textsc{Universidad de Los Andes}}
+        {Bogot\'a, Colombia}{}
+        { Dicté dos sesiones del curso \textbf{Herramientas Computacionales} en Python para ciencias e ingeniería.
+          Junto con Juan David Orjuela (Estudiante del Doctorado en Física de UNIANDES) trabajamos con el
+          material ya construido por profesores anteriores y basado en este trabajo, desarrollamos
+          una serie de vídeos que montamos en la plataforma de youtube para cambiar la metodología de
+          clase, permitiendo a los estudiantes revisar los temas antes de la sesión y así aprovechar
+          el tiempo de clase como sesiones prácticas donde los estudiantes resuelven los ejercicios de
+          programación y los profesores guían este proceso y resuelven dudas puntuales sobre el código.
+          \\Dedicación: 8 horas por semana.
+          \newline
+          \href{https://github.com/ComputoCienciasUniandes/HerramientasComputacionales/tree/master/Lectures/98.Python}
+               {\textcolor{blue}{Repositorio en Github, URL de videos, material de apoyo y ejercicios.}}
+               \newline{}
+               Syllabus:
+               \begin{itemize}
+               \item Introducción a sistemas operativos tipo UNIX.
+               \item Introducción al lenguaje de programación Python 2.0.
+               \item Algoritmos
+               \item Visualización de datos (Matplotlib)
+               \item Métodos Numéricos (derivación, integración, solución de ecuaciones diferenciales)
+               \item Solución de problemas físicos.
+               \end{itemize}
+        Ese mismo semestre fui monitor en el curso de últimos semestres de pregrado
+        \textbf{Métodos Computacionales} para estudiantes de física y geociencias, apoyando las
+        sesiones complementarias del curso y con tiempo en oficina para resolver dudas individuales
+        de los estudiantes en el desarrollo de ejercicios propuestos en clase. En este curso se
+        trabajó con métodos numéricos avanzados, como solución de ecuaciones diferenciales acopladas
+        mediante el método Runge-Jutta, método de diferencias finitas para resolver ecuaciones
+        diferenciales de varias variables, análisis de componentes principales (PCA) y aplicaciones
+        del método Monte-Carlo.
+        Dedicación: 4 horas por semana.
+        \\
+        Profesor principal: Jaime Forero, Departamento de Física, Uniandes.
+        }
+
+%------------------------------------------------
+
+\cventry{2013 Jul\\ 2014 Nov}
+        {Asistente Graduado}
+        {\textsc{Universidad de Los Andes}}
+        {Bogot\'a, Colombia}{}
+        {Profesor de \textbf{Física Experimental I \& II} (mecánica, electricidad, magnetismo
+          y termodinámica) para ciencias e ingeniería. Profesor de la sección complementaria
+          de \textbf{Física II (Complementary Section)} para ciencias, ingeniería y medicina.}
+
+%------------------------------------------------
+
+\cventry{2013-I}
+        {Profesor en Bachillerato}
+        {\textsc{Batakl\'an Corporaci\'on de Artes}}
+        {Bogot\'a, Colombia}{}
+        {Profesor del curso \textbf{Arte y Ciencia} para estudiantes de bachillerato en el colegio
+          distrital Manuel del Socorro Rodríguez en el programa de jornada complementaria \textbf{``40x40''}
+          Este curso tuvo un énfasis en Física y Música, aprovechando mi formación en física y que el grupo de
+          estudiantes hacían parte de la banda de Rock y la Banda de Guerra del colegio, también parte del
+          programa de jornada complementaria.
+          Vimos conceptos como el péndulo y los
+          estudios que hizo Galileo, el funcionamiento del oído humanano, el rango auditivo, la escala
+          pitagórica musical, resonancia en la vida diaria (puente Takoma Narrow) y en los instrumentos
+          musicales.
+          \\ Dedicación: 4 horas por semana.}
+
+\cventry{2013-I}{Profesor Universitario}
+        {\textsc{Fundaci\'on San Jos\'e}}
+        {Bogot\'a, Colombia}{}
+        {Profesor de los cursos Matemática Financiera, Estadística Descriptiva y Física (Electromagnetismo)
+          para estudiantes de Administración de Empresas e Ingeniería.}
+
+%------------------------------------------------
+
+\cventry{2009 Agosto \\ 2011 Junio}
+        {Estudiante Auxiliar de Pregrado}
+        {\textsc{Universidad Nacional de Colombia}}
+        {Bogot\'a, Colombia}{}
+        {Fui monitor del curso de contexto ``Astronomía Para Todos''. Este curso lo ofrece el Observatorio
+          Astronómico Nacional para estudiantes de toda la universidad. El curso trata sobre la esfera
+        celeste, coordenadas ecuatoriales, evolución estelar, galaxias y la astronomía de hoy en día.}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Habilidades en Programación}
+
+Tengo un repositorio en Github con algunos de mis proyectos en \url{https://github.com/flgomezc}
+\medskip
+
+\begin{itemize}
+\item Java (Android) \url{https://github.com/flgomezc/movies-app}
+\item Facebook Bot (Node-JavaScript) \url{https://github.com/flgomezc/pedrobot}
+\item Python, Ipython Notebook, \LaTeX \url{https://github.com/flgomezc/sfr-dmhm}
+\end{itemize}
+
+\medskip
+
+\cvitem{Nivel básico}{R, PHP, Apache2}
+\cvitem{Intermedio}{\textsc{C++}, Java, MySQL, GIT and Unix-like OS.}
+\cvitem{Avanzado}{\textsc{Python} con IPython Notebook (Jupyter), módulos Matplotlib y 
+Numpy. \LaTeX, \textsc{JavaScript} and programación asíncrona}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+
+\cventry{2013--Actualmente}
+        {Maestría en Ciencias-Física}
+        {Universidad de Los Andes}
+        {Bogot\'a, Colombia}{}
+        {Mi área de investigación es Astrofísica Computacional, trabajando en con la
+          estructura de gran escala del universo a partir de observaciones y simulaciones.
+          La propuesta de proyecto de tesis que desarrollaré en 2019 se titula:
+          ``A Large Scale Structure Void Identifier for Galaxy Surveys Based on the
+          $\beta$-Skeleton Graph Method''. Este documento se encuentra disponible en el
+          repositorio: \url{https://github.com/flgomezc/master_thesis}
+        }
+
+\cventry{2014--2015}
+        {Doctorado en Ciencias-Física (Retirado)}
+        {Universidad de Los Andes}
+        {Bogot\'a, Colombia}{}{
+          El proyecto de investigación en el que trabajé buscaba encontrar una relación
+          entre halos de materia oscura y formación de estrellas en galaxias de universo
+          temprano. Participé en una pasantía en la Universidad de Purdue (Indiana, EE.UU.)
+          con el apoyo de Uniandes y COLCIENCIAS, la reunión ``Dark Energy Spectroscopic
+          Instrument (DESI) International Collaboration May 2015 Meeting'' en el FERMILAB
+          (Illinois, USA). Asistí al ``Workshop nIFTy Cosmology: Numerical Simulations for
+          Large Surveys'' en la Universidad Aut\'onoma de Madrid, (Madrid, Espa\~na,
+          2014). Fui retirado del programa de doctorado por problemas de salud.}
+
+\cventry{2003-2012}
+        {Físico}
+        {Universidad Nacional de Colombia}
+        {Bogot\'a, Colombia}{}
+        { Como estudiante de pregrado desarrolé mi interes por la física computacional
+          y la física experimental. Mi trabajo de grado se desarrolló en física
+          experimental, midiendo corrientes iónicas en un acelerador de partículas de baja
+          energía.}
+
+\bigskip
+
+\subsection{Proyecto de tesis de Doctorado}
+\cvitem{Título}{\emph{A Connection Between Star Formation Rate and Dark Matter Halos at 
+z$\sim$6}.}
+\cvitem{Director}{Profesor Jaime Forero-Romero, Uniandes.}
+\cvitem{Descripción}{Este trabajo relaciona materia oscura y formación estelar en
+  galaxias de universo temprano. Se usan catálogos de galaxias de observaciones del telescopio
+  espacial Hubble y otros telescopios en tierra, junto con catálogos de halos de materia
+  oscura de la simulación cosmológica de gran escala Bolshoi, para relacionarlos según
+  el método de cadenas de Markov Monte-Carlo.
+  Repo: \url{https://github.com/flgomezc/sfr-dmhm}}
+\cvitem{Keywords}{Large Scale Structure, Galaxy Evolution, Computational Astrophysics.}
+
+\medskip
+
+\subsection{Tesis de pregrado en Física}
+\cvitem{Título}{Mass Characterization of the $H_3 ^+$ and $H ^-$ Ion Beam From a Plasmatron
+Ion Source. 2012}
+\cvitem{Director}{Profesor Gustavo Mart\'inez Tamayo, UNAL.}
+\cvitem{Descripción}{Este grabajo estudió cómo el cambio de la geometría del filamento
+  de emisión termoiónica en el la fuente de iones UNAC-Plasmatrón generaba un cambio
+  en la producción iónica de la fuente y el haz de partículas del acelerador de partículas.}
+\cvitem{Keywords}{Plasma, Ion Beam, $H ^-$ Ion, Experimental Physics.}
+
+\medskip
+
+\subsection{Otros}
+
+\cvitem{2016-Enero}{\textbf{PADI Scuba Diver}, Reef Shepherd Professional Dive Center, 
+Santa Marta, Colombia. }
+
+\cvitem{2015-I}{Pasantía en \textbf{Purdue University, Indiana, USA}. Con el apoyo de
+  Uniandes y Colciencias.}
+
+\cvitem{2014-Julio}{\textbf{nIFTy Cosmology: Numerical Simulations for Large Surveys} 
+Universidad Aut\'onoma de Madrid, Madrid, Espa\~na.
+\newline
+\url{http://popia.ft.uam.es/nIFTyCosmology/Home.html}}
+
+\cvitem{2014-Enero}{\textbf{Cosmology on the Beach: Essential Cosmology for the 
+Next Generation.} Berkeley Center for Cosmological Physics and Advanced Institute for 
+Cosmology (M\'exico). Cabo San Lucas, M\'exico.
+\newline
+\url{http://bccp.berkeley.edu/beach_program/index2014.html}
+}
+
+\cvitem{2013-Junio}{\textbf{Workshop Astronom\'ia en Los Andes}, Uniandes, Bogot\'a, 
+Colombia}
+
+\cvitem{2012}{\textbf{Circuits and Electronics 6.002x.} Curso en línea del MIT.
+\newline
+\url{http://6002x.mitx.mit.edu/info}}
+
+\cvitem{2010 Octubre}{\textbf{Workshop on Physics and Technology at CERN}, UNAL, 
+Bogot\'a, Colombia}
+\cvitem{2010-Agosto}{\textbf{Escuela de Astronom\'ia Extragal\'actica} Observatorio 
+Astron\'omico Nacional, Bogot\'a , Colombia.}
+
+\cvitem{2009-Octubre}{\textbf{XXIII Congreso Nacional de F\'isica, Universidad del 
+Magdalena}, Santa Marta, Colombia.
+\newline
+\url{www.sociedadcolombianadefisica.org.co/pag/eventos2009.php}}
+
+\cvitem{2008}{\textbf{Taller de cuento ``Ciudad de Bogot\'a 2008.''} Becario del distrito
+  en el taller de RENATA (Red Nacional de Talleres de 
+Escritura Creativa)}
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+\section{Premios}
+\cvitem{2011-II}{Mejor Saber-Pro 2011-2 en F\'isica. ICFES.
+\newline
+\href{http://www.icfes.gov.co/index.php/instituciones-educativas/saber-pro/mejores-saber-pro}
+{Mejores estudiantes de pregrado. Listado disponible en \ref{www.icfes.gov.co}}
+}
+
+%------------------------------------------------
+
+\section{Publicaciones}
+\cvitem{2013}{\textbf{Experiments with Polygonal and Polyhedral Resistive Structures.}
+\textit{R. Beltr\'an, F. G\'omez, R Franco, J-Alexis Rodr\'iguez and F. Fajardo,}
+Latin American Journal of Physics Education Vol 7, Issue 4, Dec 2013, 621-624
+\newline
+\url{www.lajpe.org/index_dec2013.html}
+}
+
+\cvitem{2010}{\textbf{Cenizas en el And\'en. Antolog\'ia de Cuento Urbano.} 
+cuento: \textbf{Imag\'inate} firmado como Filipo Rviz. 
+ISBN 978-958-44-4585-8. 
+\newline
+\url{https://es.wikipedia.org/wiki/Cenizas\_en\_el\_and\%C3\%A9n}}
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+\section{Lenguajes}
+\cvitemwithcomment{Español}{Lengua Nativa}{}
+\cvitemwithcomment{Inglés}{B2 Level}{Common European Framework of Reference. BULATS Test. 2011.}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Intereses}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Lectura}{Escritura}
+\cvlistdoubleitem{Natación}{Buceo}
+\cvlistdoubleitem{Guitarra}{Ciclismo}
+%\cvlistitem{Running}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
